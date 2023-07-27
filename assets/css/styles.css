@@ -413,6 +413,10 @@ svg {
 .skills__item::marker {
     color: var(--first-color);
 }
+.skills__subtitle span,
+.skills__title {
+    color: var(--first-color);
+}
 
 /*=============== SERVICES ===============*/
 .services__container {
@@ -720,7 +724,7 @@ svg {
     .home__data,
     .about__data,
     :is(.about__data, .skills__data) :is(.section__subtitle, .section__title){
-        text-align: initial;
+        text-align: center;
     }
     .home__social{
         justify-content: initial ;
@@ -775,7 +779,7 @@ svg {
     .home__container{
         grid-template-columns: 455px 550px;
         column-gap: 7rem;
-        padding-block: 2rem 3rem;
+        padding-block: 2rem 3rem; 
 
     }
     .home__blob{
@@ -806,6 +810,9 @@ svg {
         column-gap: 10rem;
         padding-bottom: 4rem;
     }
+    .skills__description{
+        margin-bottom: 3rem;
+    }
     .skills__content{
         column-gap: 8rem;
     }
@@ -831,7 +838,7 @@ svg {
         font-size: var(--normal-font-size);
     }
     .contact__container{
-        grid-auto-flow: 680px;
+        grid-template-columns: 680px;
         padding-block: 2.5rem 2rem;
     }
     .contact__form{
