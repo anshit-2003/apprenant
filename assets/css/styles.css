@@ -695,7 +695,7 @@ svg {
 
 
 /* For medium devices */
-@media screen and (max-width :576px){
+@media screen and (min-width :576px){
     .home__container,
     .about__container,
     .skills__container,
@@ -707,7 +707,7 @@ svg {
     }
 }
 
-@media screen and (max-width : 768px){
+@media screen and (min-width : 768px){
     .nav__menu{
         width: 55%;
     }
