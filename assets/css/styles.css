@@ -185,9 +185,22 @@ svg {
 .nav__toggle,
 .nav__close {
     display: flex;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: var(--title-color);
     cursor: pointer;
+}
+.resume-button {
+    background-color: transparent; /* Blue color, you can change it to your preference */
+    color: #fff;
+    padding: 0px 0px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.resume-button:hover {
+    background-color: #0056b3;
+    padding: 2px 10px; /* Darker shade on hover */
 }
 
 /* Navigation for mobile devices */
