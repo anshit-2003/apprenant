@@ -228,7 +228,7 @@ svg {
 .nav__link {
     color: var(--title-color);
     font-weight: var(--font-medium);
-    transition: color 0.4s;
+    transition: color 0.3s;
 }
 
 .nav__link:hover {
@@ -321,7 +321,7 @@ svg {
     color: var(--title-color);
     font-size: 1.5rem;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    transition: transform 0.4s;
+    transition: transform 0.3s;
 }
 
 .home__social-link:hover {
@@ -351,7 +351,7 @@ svg {
     border-radius: 0.5rem;
     color: var(--title-color);
     font-weight: var(--font-medium);
-    transition: box-shadow 0.4s;
+    transition: box-shadow 0.3s;
 }
 
 .button:hover {
